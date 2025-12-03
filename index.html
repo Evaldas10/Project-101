@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+      <div class="logo">
+          <img src="images/logo-1.jpg" alt="logo">
+      </div>
+      <div class="navigation">
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Tour packages</a></li>
+              <li><a href="#">Contact</a></li>
+          </ul>
+          <button class="button">Explore places</button>
+      </div>
+  </header>
+
+  <main class="container">
+      <img src="images/mountains.jpg" alt="main-photo">
+      <div class="main-text">
+          <h1>Book an exclusive</h1>
+          <h2>Home for your personal travel</h2>
+          <p>Touch properly a hand-picked<br>personaly visited and connect be found anywhere</p>
+      </div>
+      <button class="main-button">Explore places</button>
+  </main>
+
+  <div class="famous">
+      <h2>Most famous places</h2>
+      <p>Recommendation</p>
+  </div>
+
+
+  <div id="modal" class="modal" aria-hidden="true">
+      <div class="modal-content" role="dialog" aria-modal="true">
+          <button class="close" aria-label="Close modal">&times;</button>
+        
+          <div class="modal-section" data-place="london">
+      <h3>London</h3>
+      <img src="images/london/london2.jpeg" alt="London">
+      <img src="images/london/london3.jpeg" alt="London">
+      <img src="images/london/london4.jpeg" alt="London">
+     
+    </div>
+
+    <!-- Rome -->
+    <div class="modal-section" data-place="rome">
+      <h3>Rome</h3>
+      <img src="images/rome/rome2.jpg" alt="Rome">
+      <img src="images/rome/Rome3.jpg" alt="Rome">
+      <img src="images/rome/rome4.jpg" alt="Rome">
+    </div>
+
+    <!-- Amsterdam -->
+    <div class="modal-section" data-place="amsterdam">
+      <h3>Amsterdam</h3>
+      <img src="images/amsterdam/amsterdam2.jpg" alt="Amsterdam">
+      <img src="images/amsterdam/amsterdam3.jpg" alt="Amsterdam">
+      <img src="images/amsterdam/amsterdam4.jpg" alt="Amsterdam">
+    </div>
+
+    <!-- Paris -->
+    <div class="modal-section" data-place="paris">
+      <h3>Paris</h3>
+      <img src="images/paris/paris2.jpg" alt="Paris">
+      <img src="images/paris/paris3.jpeg" alt="Paris">
+      <img src="images/paris/paris4.jpg" alt="Paris">
+    </div>
+
+    <!-- Barcelona -->
+    <div class="modal-section" data-place="barcelona">
+      <h3>Barcelona</h3>
+      <img src="images/barcelona/barcelona2.jpg" alt="Barcelona">
+      <img src="images/barcelona/barcelona3.jpg" alt="Barcelona">
+      <img src="images/barcelona/barcelona4.jpg" alt="Barcelona">
+    </div>
+    <div class="modal-section" data-place="japan">
+      <h3>Japan</h3>
+      <img src="images/japan/japan2.jpeg" alt="Japan">
+      <img src="images/japan/japan3.jpeg" alt="Japan">
+      <img src="images/japan/Japan4.jpeg" alt="Japan">
+    </div>
+      </div>
+  </div>
+ 
+ 
+
+  <article class="famous-places">
+
+      <div class="places" data-aos="fade-up">
+          <img src="images/london/london.jpeg" alt="london">
+          <h2 class="text">London</h2>
+          <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nihil voluptatibus, quos neque quas sint ipsum modi?</p>
+          <button class="see-more">Explore</button>
+      </div>
+
+      <div class="places" data-aos="fade-up">
+          <img src="images/rome/Rome.jpg" alt="rome">
+          <h2 class="text">Rome</h2>
+          <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nihil voluptatibus, quos neque quas sint ipsum modi?</p>
+          <button class="see-more">Explore</button>
+      </div>
+
+      <div class="places" data-aos="fade-up">
+          <img src="images/amsterdam/amsterdam.jpg" alt="amsterdam">
+          <h2 class="text">Amsterdam</h2>
+          <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nihil voluptatibus, quos neque quas sint ipsum modi?</p>
+          <button class="see-more">Explore</button>
+      </div>
+
+      <div class="places" data-aos="fade-up">
+          <img src="images/barcelona/barcelona.jpg" alt="barcelona">
+          <h2 class="text">Barcelona</h2>
+          <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nihil voluptatibus, quos neque quas sint ipsum modi?</p>
+          <button class="see-more">Explore</button>
+      </div>
+
+      <div class="places" data-aos="fade-up">
+          <img src="images/paris/paris.jpg" alt="paris">
+          <h2 class="text">Paris</h2>
+          <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nihil voluptatibus, quos neque quas sint ipsum modi?</p>
+          <button class="see-more">Explore</button>
+      </div>
+
+      <div class="places" data-aos="fade-up">
+          <img src="images/japan/japan.jpg" alt="japan">
+          <h2 class="text">Japan</h2>
+          <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nihil voluptatibus, quos neque quas sint ipsum modi?</p>
+          <button class="see-more">Explore</button>
+      </div>
+
+  </article>
+
+  <footer class="footer">
+      <div class="footer-content">
+          <div class="address">
+              <i class="fa-solid fa-earth-africa"></i>
+              <h3>15015 Westheimer, TX, USA</h3>
+              <p>Our address</p>
+          </div>
+          <div class="mail">
+              <i class="fa-solid fa-envelope"></i>
+              <h3>hello@wppals.com</h3>
+              <p>Our Mailbox</p>
+          </div>
+          <div class="phone">
+              <i class="fa-solid fa-phone"></i>
+              <h3>+1475-215-1390</h3>
+              <p>Our Phone</p>
+          </div>
+          <div class="social-media">
+              <h3>Follow us on social media</h3>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+      </div>
+  </footer>
+</body>
+</html>
