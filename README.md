@@ -1,17 +1,22 @@
 # Project-101
 
-Tai demonstracinė, vizualinė svetainė, skirta parodyti vartotojo sąsajos (UI) išdėstymą ir dizainą.  
-Projektą kūriau savarankiškai, siekdamas pasitikrinti ir sustiprinti savo HTML, CSS ir JavaScript žinias.
+This is a demonstration, visually focused website created to showcase
+user interface (UI) layout and design.
 
-Funkcionalumas (rezervacijų išsaugojimas, backend logika) nėra pilnai įgyvendintas – projektas orientuotas į vizualinę dalį ir struktūrą.
+The project was developed independently as a way to practice and
+strengthen my skills in HTML, CSS, and JavaScript.
 
-## 🛠️ Naudotos technologijos
+Core functionality such as reservation handling and backend logic
+is not fully implemented. The main focus of this project is on
+visual presentation, layout, and overall structure.
+
+## 🛠️ Technologies Used
 - HTML
 - CSS
 - JavaScript
 
-## 🚀 Kaip peržiūrėti projektą
-1. Eik į **Deployments** skiltį šioje GitHub repozitorijoje
-2. Paspausk aktyvią nuorodą – projektas atsidarys naršyklėje
+## 🚀 How to View the Project
+1. Go to the **Deployments** section of this GitHub repository
+2. Click the active link — the project will open in your browser
 
-> Projektas paleistas naudojant **GitHub Pages**
+> This project is deployed using **GitHub Pages**
